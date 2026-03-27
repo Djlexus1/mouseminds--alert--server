@@ -44,7 +44,7 @@ from urllib.request import urlopen
 
 
 POLL_SECONDS = int(os.environ.get("POLL_SECONDS", "120"))
-HOST = os.environ.get("HOST", "127.0.0.1")
+HOST = os.environ.get("HOST", "0.0.0.0")
 PORT = int(os.environ.get("PORT", "8787"))
 
 APPLE_TEAM_ID = os.environ.get("APPLE_TEAM_ID", "").strip()

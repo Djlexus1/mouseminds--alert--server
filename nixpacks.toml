@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ["python3"]
+
+[start]
+cmd = "python3 remote_wait_alerts_server.py"
